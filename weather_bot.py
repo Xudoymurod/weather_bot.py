@@ -18,8 +18,8 @@ from aiogram.fsm.storage.memory import MemoryStorage
 # =============================================
 #  TOKENLARNI SHU YERGA KIRITING
 # =============================================
-TELEGRAM_TOKEN = "8409164621:AAEvHfshy9qEnI2iZY8R7Sxi1fayBeC-XhY"
-WEATHER_API_KEY = "af7ce77d7cc685f684d3d3981cd6ac78"
+TELEGRAM_TOKEN = os.environ.get("8409164621:AAEvHfshy9qEnI2iZY8R7Sxi1fayBeC-XhY")
+WEATHER_API_KEY = os.environ.get("af7ce77d7cc685f684d3d3981cd6ac78")
 # =============================================
 
 bot = Bot(token=TELEGRAM_TOKEN)
